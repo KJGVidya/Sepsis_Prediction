@@ -22,7 +22,6 @@ Sepsis Patient:~3K
 SepsisLabel is set to 1, six hours before the onset of sepsis aiding in early prediction. For non-sepsis patients, SepsisLabel is 0.
 
 
-
 ## Models
 A large portion of the data is missing. Missing values are imputed using Backward and forward fill, and MICE.
 
@@ -49,3 +48,6 @@ In Sepsis prediction, recall is important than accuracy. Recall/sensitivity is h
 
 We use Precision-Recall curve to evaluate our model.
 
+XGBoost PR Curve           |  LightGBM PR Curve
+:-------------------------:|:-------------------------:
+![](https://github.com/KJGVidya/Sepsis_Prediction/blob/main/Images/XGBoost%20PR%20Curve%20Mean.png)  |  ![](https://github.com/KJGVidya/Sepsis_Prediction/blob/main/Images/LightGBM%20PR%20Curve%20mean.png)
